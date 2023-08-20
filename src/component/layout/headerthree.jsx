@@ -82,13 +82,8 @@ class HeaderThree extends Component {
                             <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                                 <div className="navbar-nav mainmenu">
                                     <ul>
-                                        <li className="menu-item-has-children">
-                                            <a href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-bs-offset="0,0">Home</a>
-                                            <ul className="dropdown-menu">
-                                                <li><NavLink to="/">Home Page One</NavLink></li>
-                                                <li><NavLink to="/index-2">Home Page Two</NavLink></li>
-                                                <li><NavLink to="/index-3">Home Page Three</NavLink></li>
-                                            </ul>
+                                        <li >
+                                       <NavLink to="/">Home</NavLink>
                                         </li>
                                         <li className="menu-item-has-children">
                                             <a href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-bs-offset="0,0">Pages</a>
@@ -117,15 +112,7 @@ class HeaderThree extends Component {
                                                 <li><NavLink to="/shop-cart">Product Cart</NavLink></li>
                                             </ul>
                                         </li>
-                                        <li className="menu-item-has-children">
-                                            <a href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-bs-offset="0,0">Blogs</a>
-                                            <ul className="dropdown-menu">
-                                                <li><NavLink to="/blog">Blog</NavLink></li>
-                                                <li><NavLink to="/blog-2">Blog Style Two</NavLink></li>
-                                                <li><NavLink to="/blog-single">Blog Details</NavLink></li>
-                                            </ul>
-                                        </li>
-                                        <li><NavLink to="/contact">contact</NavLink></li>
+                                        <li><NavLink to="/blog">Blog</NavLink></li>
                                     </ul>
                                 </div>
                                 <ul className="button-group">
